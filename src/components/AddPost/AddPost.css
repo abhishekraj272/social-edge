@@ -1,0 +1,10 @@
+.addPost__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.addPost__btn {
+    display: flex;
+    justify-content: flex-end;
+}

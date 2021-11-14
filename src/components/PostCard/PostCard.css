@@ -1,0 +1,36 @@
+.postcard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    margin: 0 0 1rem;
+}
+
+.postcard__user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    padding: 0 0 1rem;
+}
+
+.postcard__icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0 0;
+}
+
+.postcard__textOverflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+    cursor: pointer;
+}
+
+.postcard__textFull {
+    word-wrap:break-word;
+    cursor: pointer;
+    width: 300px;
+}

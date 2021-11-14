@@ -1,0 +1,17 @@
+.menu {
+    background-color: #E6DDC4;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
